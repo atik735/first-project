@@ -1,0 +1,103 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F8F8F7;
+}
+header {
+    height: 100vh;
+    width: 100%;
+}
+.right {
+    background-image: url(Images1/group2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 380px 25% ;
+    height: 100vh;
+}
+.menu ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li .mn{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(8, 54, 139);
+    margin-left: 90px;
+    transition: 1s;
+}
+.menu ul li .mn:hover {
+    color: white;
+    background-color: navy;
+    border: 1px solid rgba(179,164,149,255);
+    border-radius: 15px 50px 30px;
+    padding: 10px;
+}
+.menu ul li .mn:active {
+    color: rgb(4, 11, 9);
+    background-color: green;
+}
+.menu ul li h1 {
+    margin-left: 200px;
+    color: navy;
+    font-weight: bolder;
+}
+.menu ul li .buy {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    background-color: navy;
+    padding: 5px 45px 5px;
+    border: 1px solid navy;
+    margin-left: 400px;
+}
+.menu ul li .buy:hover {
+    color: white;
+    background-color: green;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.leftside{
+    padding-left: 300px;
+    padding-top: 150px;
+}
+.leftside h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #041322;
+}
+.leftside p{
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: justify;
+  margin-right: 65%;
+  color: #708090;
+}
+.btn{
+    text-decoration: none;
+    background-color: #13264D;
+    color: white;
+    border: 1px solid #13264D ;
+    padding: 5px 20px;
+    margin-left: 280px;
+    margin-right: 8px;
+}
+.btn1{
+    text-decoration: none;
+    border: 1px solid #13264D;
+    color: #13264D;
+    padding: 5px 45px;
+}
