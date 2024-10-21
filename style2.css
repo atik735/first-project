@@ -16,7 +16,7 @@ header {
     height: 100vh;
 }
 .menu ul {
-    padding: 0px;
+    padding: 10px;
     margin: 0px;
     list-style: none;
 }
@@ -56,7 +56,7 @@ header {
     background-color: navy;
     padding: 5px 45px 5px;
     border: 1px solid navy;
-    margin-left: 400px;
+    margin-left: 700px;
 }
 .menu ul li .buy:hover {
     color: white;
@@ -86,14 +86,16 @@ header {
   margin-right: 65%;
   color: #708090;
 }
+section{
+    margin-right: 52%;
+}
 .btn{
     text-decoration: none;
     background-color: #13264D;
     color: white;
     border: 1px solid #13264D ;
     padding: 5px 20px;
-    margin-left: 280px;
-    margin-right: 8px;
+    margin-right: 20px;
 }
 .btn1{
     text-decoration: none;
